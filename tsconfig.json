@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "module": "CommonJS",
-    "moduleResolution": "node10",
-    "ignoreDeprecations": "6.0",
-    "moduleDetection": "force",
+    "module": "node16",
+    "moduleResolution": "node16",
     "types": ["node"],
     "outDir": "./dist",
-    "rootDir": ".",
+    "rootDir": "./src",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "noImplicitAny": false,
     "useUnknownInCatchVariables": false
   },
-  "exclude": ["frontend"]
+  "include": ["src"],
+  "exclude": ["frontend", "node_modules", "dist"]
 }

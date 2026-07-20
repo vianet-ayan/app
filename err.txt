@@ -1,0 +1,19 @@
+14:00:10.348 Running build in Washington, D.C., USA (East) – iad1
+14:00:10.350 Build machine configuration: 2 cores, 8 GB
+14:00:10.613 Cloning github.com/vianet-ayan/app (Branch: main, Commit: 46a1678)
+14:00:12.093 Cloning completed: 1.480s
+14:00:12.300 Skipping build cache since Package Manager changed from "pnpm" to "npm"
+14:00:12.965 Running "vercel build"
+14:00:12.996 Vercel CLI 56.2.0
+14:00:14.453 Installing dependencies...
+14:00:17.688 
+14:00:17.689 added 113 packages in 3s
+14:00:17.690 
+14:00:17.691 16 packages are looking for funding
+14:00:17.691   run `npm fund` for details
+14:00:17.895 
+14:00:17.895 > express-app-vercel@1.0.0 build
+14:00:17.896 > npx tsc && cd frontend && npm ci && npm run build
+14:00:17.896 
+14:00:20.198 tsconfig.json(6,27): error TS5103: Invalid value for '--ignoreDeprecations'.
+14:00:20.253 Error: Command "npm run build" exited with 2
